@@ -9,6 +9,11 @@
 </p>
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/manan-vaish-0ba187313/"><img src="https://img.shields.io/badge/LinkedIn-Let%27s_connect-0A66C2?style=for-the-badge" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:vaishmanan13@gmail.com"><img src="https://img.shields.io/badge/Open_to-AI%2FML_%26_SDE_internships-15352E?style=for-the-badge" alt="Open to AI/ML and SDE internships" /></a>
+</p>
+
+<p align="center">
   <a href="#the-workbench">Projects</a> &nbsp; / &nbsp;
   <a href="#my-main-stack">Stack</a> &nbsp; / &nbsp;
   <a href="#open-source">Open source</a> &nbsp; / &nbsp;
@@ -29,6 +34,21 @@ I'm most interested in the engineering between a model and a working product: **
 
 ### My main stack
 
+**Backend & data**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-254B62?style=for-the-badge)
+
+**AI systems & evaluation**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-6750A4?style=for-the-badge)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+
 | Layer | What I focus on | Tools |
 | --- | --- | --- |
 | **Backend & APIs** | Typed interfaces, validation, persistence, and service logic | Python · FastAPI · Pydantic · SQLAlchemy · SQL |
@@ -40,9 +60,12 @@ I'm most interested in the engineering between a model and a working product: **
 The projects below show my implementation work; platform tooling and system design are areas I'm continuing to deepen.
 
 ```text
-Documents & data → Retrieval / models → Agent workflows → APIs
-                          ↑                  ↑             ↑
-                     Evaluation         Regression tests  Monitoring
+manan@workbench:~$ cat engineering-focus.txt
+
+build     → grounded retrieval, agent workflows, typed APIs
+measure   → ROUGE / F1, regression tests, benchmark journeys
+harden    → bounded retries, human approvals, idempotent writes
+next      → containers, event-driven pipelines, observability
 ```
 
 ### The workbench
@@ -99,6 +122,20 @@ These five PRs are awaiting maintainer review, not merged contributions. Each PR
 - **AI platforms:** experiment tracking, deployment workflows, CI/CD, and monitoring.
 - **Reliable agents:** retrieval quality, agent evaluations, and source-grounded verification.
 - **Systems:** data structures, algorithms, architecture, and high-level system design.
+
+#### Next on my platform-engineering roadmap
+
+![Docker roadmap](https://img.shields.io/badge/Roadmap-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kafka roadmap](https://img.shields.io/badge/Roadmap-Apache_Kafka-383545?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Redis roadmap](https://img.shields.io/badge/Roadmap-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+| Technology | What I want to build with it |
+| --- | --- |
+| **Docker & Compose** | Reproducible local environments for an API, model service, and database |
+| **Apache Kafka** | Event-driven document ingestion with decoupled processing workers |
+| **Redis** | Caching and rate limiting for retrieval and inference APIs |
+
+These are planned learning goals; project-backed experience is described in the stack and workbench above.
 
 <details>
 <summary>🧰 More of my toolkit</summary>
