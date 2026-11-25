@@ -49,13 +49,23 @@ I'm most interested in the engineering between a model and a working product: **
 ![RAG](https://img.shields.io/badge/RAG-6750A4?style=for-the-badge)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 
+**Infrastructure & delivery**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-383545?style=for-the-badge&logo=apachekafka&logoColor=white)
+
 | Layer | What I focus on | Tools |
 | --- | --- | --- |
 | **Backend & APIs** | Typed interfaces, validation, persistence, and service logic | Python · FastAPI · Pydantic · SQLAlchemy · SQL |
 | **RAG & agents** | Retrieval workflows, agent coordination, evidence grounding, and human approvals | LangChain · LangGraph · Fetch.ai uAgents |
 | **Models & NLP** | Embeddings, rhetorical-role classification, and text summarisation | PyTorch · Hugging Face Transformers · InLegalBERT · scikit-learn |
 | **Evaluation & reliability** | Regression tests, ROUGE/F1 benchmarks, agent evaluation, retries, and idempotency | pytest · NumPy · Pandas |
-| **Platform tooling** | Developing my workflow for experiment tracking, CI/CD, deployment, and monitoring | MLflow · GitHub Actions · AWS EC2 · Git |
+| **Containers & caching** | Reproducible service environments, API caching, and rate limiting | Docker · Docker Compose · Redis |
+| **ML delivery** | Experiment tracking, automated checks, and deployment workflows | MLflow · GitHub Actions · AWS EC2 · Git |
+| **Event streaming** | Document ingestion and decoupled processing workers | Apache Kafka |
 
 The projects below show my implementation work; platform tooling and system design are areas I'm continuing to deepen.
 
@@ -65,7 +75,7 @@ manan@workbench:~$ cat engineering-focus.txt
 build     → grounded retrieval, agent workflows, typed APIs
 measure   → ROUGE / F1, regression tests, benchmark journeys
 harden    → bounded retries, human approvals, idempotent writes
-next      → containers, event-driven pipelines, observability
+platform  → containers, caching, event-driven pipelines
 ```
 
 ### The workbench
@@ -122,20 +132,6 @@ These five PRs are awaiting maintainer review, not merged contributions. Each PR
 - **AI platforms:** experiment tracking, deployment workflows, CI/CD, and monitoring.
 - **Reliable agents:** retrieval quality, agent evaluations, and source-grounded verification.
 - **Systems:** data structures, algorithms, architecture, and high-level system design.
-
-#### Next on my platform-engineering roadmap
-
-![Docker roadmap](https://img.shields.io/badge/Roadmap-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kafka roadmap](https://img.shields.io/badge/Roadmap-Apache_Kafka-383545?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Redis roadmap](https://img.shields.io/badge/Roadmap-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-| Technology | What I want to build with it |
-| --- | --- |
-| **Docker & Compose** | Reproducible local environments for an API, model service, and database |
-| **Apache Kafka** | Event-driven document ingestion with decoupled processing workers |
-| **Redis** | Caching and rate limiting for retrieval and inference APIs |
-
-These are planned learning goals; project-backed experience is described in the stack and workbench above.
 
 <details>
 <summary>🧰 More of my toolkit</summary>
