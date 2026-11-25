@@ -1,14 +1,17 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Manan — curious by nature, building with Python" width="100%" />
+  <img src="assets/header.svg" alt="Manan — from models to working systems" width="100%" />
 </p>
 
 <p align="center">
-  <strong>Turning language, data, and curiosity into things that work.</strong><br />
-  CSE @ LNMIIT · Class of 2028 · NLP &amp; Multi-Agent Systems
+  <strong>Building toward AI/ML Platform Engineering</strong><br />
+  Python · FastAPI · RAG · LangGraph · Agent Evaluation<br />
+  CSE @ LNMIIT · Class of 2028
 </p>
 
 <p align="center">
   <a href="#the-workbench">Projects</a> &nbsp; / &nbsp;
+  <a href="#my-main-stack">Stack</a> &nbsp; / &nbsp;
+  <a href="#open-source">Open source</a> &nbsp; / &nbsp;
   <a href="#currently-exploring">Learning</a> &nbsp; / &nbsp;
   <a href="https://www.linkedin.com/in/manan-vaish-0ba187313/">LinkedIn</a> &nbsp; / &nbsp;
   <a href="mailto:vaishmanan13@gmail.com">Say hello</a>
@@ -18,9 +21,29 @@
 
 ### 🐻 Hey, I'm Manan Vaish
 
-I'm a **B.Tech Computer Science student at The LNM Institute of Information Technology, Jaipur**, graduating in May 2028. I build **NLP pipelines and multi-agent systems** with an emphasis on evidence, evaluation, and reliable behaviour.
+I'm a **B.Tech Computer Science student at The LNM Institute of Information Technology, Jaipur**, graduating in May 2028, working toward **AI/ML platform engineering**.
 
-My projects explore source-verified legal summaries, healthcare navigation, and optimisation for disaster relief. I enjoy turning an idea into a working system—and measuring whether it actually improves.
+I'm most interested in the engineering between a model and a working product: **retrieval pipelines, agent orchestration, APIs, evaluation, CI/CD, and monitoring**. My projects explore source-verified legal summaries and multi-agent healthcare navigation, with tests and benchmarks to check what actually improves.
+
+**Open to AI/ML and software engineering internships.** I also enjoy DSA, architecture, and high-level system design.
+
+### My main stack
+
+| Layer | What I focus on | Tools |
+| --- | --- | --- |
+| **Backend & APIs** | Typed interfaces, validation, persistence, and service logic | Python · FastAPI · Pydantic · SQLAlchemy · SQL |
+| **RAG & agents** | Retrieval workflows, agent coordination, evidence grounding, and human approvals | LangChain · LangGraph · Fetch.ai uAgents |
+| **Models & NLP** | Embeddings, rhetorical-role classification, and text summarisation | PyTorch · Hugging Face Transformers · InLegalBERT · scikit-learn |
+| **Evaluation & reliability** | Regression tests, ROUGE/F1 benchmarks, agent evaluation, retries, and idempotency | pytest · NumPy · Pandas |
+| **Platform tooling** | Developing my workflow for experiment tracking, CI/CD, deployment, and monitoring | MLflow · GitHub Actions · AWS EC2 · Git |
+
+The projects below show my implementation work; platform tooling and system design are areas I'm continuing to deepen.
+
+```text
+Documents & data → Retrieval / models → Agent workflows → APIs
+                          ↑                  ↑             ↑
+                     Evaluation         Regression tests  Monitoring
+```
 
 ### The workbench
 
@@ -48,6 +71,24 @@ My projects explore source-verified legal summaries, healthcare navigation, and 
   </tr>
 </table>
 
+### Open source
+
+I contribute targeted fixes, performance improvements, and regression tests to Python and AI tooling.
+
+**Merged upstream:** [sequential batch queries](https://github.com/SreejaPasula/flowmcp/pull/55) and [reusable prompt templates](https://github.com/SreejaPasula/flowmcp/pull/58).
+
+**Submitted for review** — status checked 26 November 2026:
+
+| Project | Contribution | Validation |
+| --- | --- | --- |
+| [KeyBERT #283](https://github.com/MaartenGr/KeyBERT/pull/283) | Compute Max Sum pairwise similarities only for shortlisted candidates | 41 focused tests; synthetic peak traced memory ~63 → 2 MiB |
+| [LlamaIndex #24427](https://github.com/run-llama/llama_index/pull/24427) | Add filesystem support to XMLReader | 41 tests passed |
+| [FastEmbed #903](https://github.com/qdrant/fastembed/pull/903) | Reject zero standard deviations during image normalisation | 31 targeted tests passed |
+| [Textstat #229](https://github.com/textstat/textstat/pull/229) | Preserve Arabic diacritics when counting complex words | 486 tests passed, 3 skipped |
+| [WordCloud #818](https://github.com/amueller/word_cloud/pull/818) | Preserve transparency in embedded SVG raster images | 79 tests passed |
+
+These five PRs are awaiting maintainer review, not merged contributions. Each PR documents its checks and any testing limitations. Contributions were prepared with AI assistance and tested; implementation and validation details are in the linked PRs.
+
 ### Beyond the code
 
 - **Data Analytics Intern · Rajasthan Asset Management Company** — May–July 2026. Explored financial datasets and prototyped reporting automation.
@@ -55,11 +96,12 @@ My projects explore source-verified legal summaries, healthcare navigation, and 
 
 ### Currently exploring
 
-- **Language models:** LLM architectures, generative AI, and retrieval-augmented generation.
-- **Reliable projects:** evaluation, regression tests, and useful open-source contributions.
-- **Problem solving:** data structures, algorithms, and competitive programming.
+- **AI platforms:** experiment tracking, deployment workflows, CI/CD, and monitoring.
+- **Reliable agents:** retrieval quality, agent evaluations, and source-grounded verification.
+- **Systems:** data structures, algorithms, architecture, and high-level system design.
 
-### 🧰 Tools I work with
+<details>
+<summary>🧰 More of my toolkit</summary>
 
 | Area | Toolkit |
 | --- | --- |
@@ -68,6 +110,8 @@ My projects explore source-verified legal summaries, healthcare navigation, and 
 | Agents & retrieval | Fetch.ai uAgents, LangChain, LangGraph, RAG |
 | Backend | FastAPI, Flask, Streamlit, Pydantic, SQLAlchemy, MySQL, SQLite |
 | Evaluation | pytest, ROUGE/F1 benchmarking, agent and RAG evaluation |
+
+</details>
 
 <details>
 <summary>📚 Learning foundations</summary>
